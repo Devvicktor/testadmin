@@ -1,6 +1,6 @@
 
 import Companysettings from '../MainPage/Administration/Settings/companysettings';
-import Localization from '../MainPage/Administration/settings/localization';
+// import Localization from '../MainPage/Administration/settings/localization';
 import Themesettings from '../MainPage/Administration/Settings/themesetting';
 import Rolepermission from '../MainPage/Administration/Settings/rolespermission';
 import Emailsettings from '../MainPage/Administration/Settings/emailsetting';
@@ -11,15 +11,15 @@ import ChangePassword from '../MainPage/Administration/Settings/changepassword';
 import Leavetype from '../MainPage/Administration/Settings/leavetype';
 
 
-export default [  
+export default [
    {
       path: 'companysetting',
       component: Companysettings
    },
-   {
-      path: 'localization',
-      component: Localization
-   },
+   // {
+   //    path: 'localization',
+   //    component: Localization
+   // },
    {
       path: 'theme-settings',
       component: Themesettings
