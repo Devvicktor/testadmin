@@ -6,4 +6,4 @@ app.use(express.static(__dirname + '/build'));
 app.use('/src/assets', express.static(__dirname + '/src/assets/'));
 
 
-app.listen(process.env.PORT || 8080);
+app.listen(process.env.PORT || 3000);
