@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "build": "webpack --config webpack.prod.config.js",
-    "dev": "webpack-dev-server --mode development --inline --progress  --host 127.0.0.1 --port 3000",
+    "dev": "webpack-dev-server --mode development --inline --progress  --host 127.0.0.1 --port 3000"
   },
   "keywords": [
     "reactjs",
