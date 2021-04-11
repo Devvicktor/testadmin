@@ -54,11 +54,12 @@ module.exports = {
  },
  devServer: {
   contentBase: './src/index.js',
-  host: 'localhost',
+  host: '127.0.0.1 ',
   compress: true,
   port: 3000, // port number
   historyApiFallback: true,
-  quiet: true
+  quiet: true,
+  inline: true
 },
  externals: {
   // global app config object
